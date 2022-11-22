@@ -8,20 +8,15 @@
                             <div class="footer">
                                 <h2 class="title__line--2">ABOUT US</h2>
                                 <div class="ft__details">
-                                    <p>The developer of this website is GLA student. This website is made for miniproject purpose.
+                                    <p>This Website is develop by GLA University students for miniproject purpose. This website is a prototype not a actual one.
                                     </p>
                                     <div class="ft__social__link">
                                         <ul class="social__link">
-                                            <li><a href="#"><i class="icon-social-twitter icons"></i></a></li>
+                                            <li><a href="https://www.twitter.com"><i class="icon-social-twitter icons"></i></a></li>
 
-                                            <li><a href="#"><i class="icon-social-instagram icons"></i></a></li>
+                                            <li><a href="https://www.instagram.com"><i class="icon-social-instagram icons"></i></a></li>
 
-                                            <li><a href="#"><i class="icon-social-facebook icons"></i></a></li>
-
-                                            <li><a href="#"><i class="icon-social-google icons"></i></a></li>
-
-                                            <li><a href="#"><i class="icon-social-linkedin icons"></i></a></li>
-                                        </ul>
+                                            <li><a href="https://www.facebook.com"><i class="icon-social-facebook icons"></i></a></li>
                                     </div>
                                 </div>
                             </div>
@@ -32,11 +27,9 @@
                                 <h2 class="title__line--2">information</h2>
                                 <div class="ft__inner">
                                     <ul class="ft__list">
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">Delivery Information</a></li>
-                                        <li><a href="#">Privacy & Policy</a></li>
-                                        <li><a href="#">Terms  & Condition</a></li>
-                                        <li><a href="#">Manufactures</a></li>
+                                        <li><a href="./contact.php">About us</a></li>
+                                        <li><a href="./privacy.html">Privacy & Policy</a></li>
+                                        <li><a href="./term.html">Terms  & Condition</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -46,11 +39,9 @@
                                 <h2 class="title__line--2">my account</h2>
                                 <div class="ft__inner">
                                     <ul class="ft__list">
-                                        <li><a href="#">My Account</a></li>
-                                        <li><a href="cart.html">My Cart</a></li>
-                                        <li><a href="#">Login</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="./my_order.php">My Account</a></li>
+                                        <li><a href="cart.php">My Cart</a></li>
+                                        <li><a href="./login.php">Login</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -60,11 +51,7 @@
                                 <h2 class="title__line--2">Our service</h2>
                                 <div class="ft__inner">
                                     <ul class="ft__list">
-                                        <li><a href="#">My Account</a></li>
-                                        <li><a href="cart.html">My Cart</a></li>
-                                        <li><a href="#">Login</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="./contact.php">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -91,7 +78,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="copyright__inner">
-                                <p>Copyright© Piyush Vishnani Pvt. Ltd.</a> All right reserved.</p>
+                                <p>Copyright© Electronify Pvt. Ltd.</a> All right reserved.</p>
                                 <a ><img src="images/others/shape/paypol.png" alt="payment images"></a>
                             </div>
                         </div>

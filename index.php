@@ -12,9 +12,9 @@
                                 <div class="slide">
                                     <div class="slider__inner">
                                         <h2>collection 2018</h2>
-                                        <h1>NICE CHAIR</h1>
+                                        <h1>NICE</h1>
                                         <div class="cr__btn">
-                                            <a href="cart.html">Shop Now</a>
+                                            <a href="cart.php">Shop Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -36,9 +36,9 @@
                                 <div class="slide">
                                     <div class="slider__inner">
                                         <h2>collection 2018</h2>
-                                        <h1>NICE CHAIR</h1>
+                                        <h1>CHAIR</h1>
                                         <div class="cr__btn">
-                                            <a href="cart.html">Shop Now</a>
+                                            <a href="cart.php">Shop Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@
                     <div class="col-xs-12">
                         <div class="section__title--2 text-center">
                             <h2 class="title__line">Best Seller</h2>
-                            <p>Sorry we don't have any best selling product. actually we are not going to lie to you none of our product is getting sold, we are going to get bankrupt :-(</p>
+                            <p>Sorry We regrest to show you best sellers right now</p>
                         </div>
                     </div>
                 </div>
