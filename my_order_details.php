@@ -10,7 +10,7 @@ if (!isset($_SESSION['USER_LOGIN'])) {
 $order_id = get_safe_value($con, $_GET['id']);
     ?>
 <div class="ht__bradcaump__area"
-    style="background: rgba(0, 0, 0, 0) url(images/bg/4.jpg) no-repeat scroll center center / cover ;">
+    style="background: rgba(0, 0, 0, 0) url(images/bg/6.jpg) no-repeat scroll center center / cover ;">
     <div class="ht__bradcaump__wrap">
         <div class="container">
             <div class="row">
