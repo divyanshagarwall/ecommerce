@@ -31,6 +31,7 @@
                             <ul class="ft__list">
                                 <li><a href="./privacy.html">Privacy & Policy</a></li>
                                 <li><a href="./term.html">Terms & Condition</a></li>
+                                <li><a href="./contact.php">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>

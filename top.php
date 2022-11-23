@@ -43,7 +43,7 @@ $totalProduct=$obj->totalProduct();
                         <div class="menumenu__container clearfix">
                             <div class="col-lg-2 col-md-2 col-sm-3 col-xs-5"> 
                                 <div class="logo">
-                                     <a href="index.php"><img src="./images/logo/logo.png" alt="logo images"></a>
+                                     <a href="index.php"><img src="./images/logo/1.png" alt="logo images"></a>
                                 </div>
                             </div>
                             <div class="col-md-7 col-lg-7 col-sm-5 col-xs-3">
@@ -57,7 +57,7 @@ $totalProduct=$obj->totalProduct();
 											<?php
 										}
 										?>
-                                        <li><a href="contact.php">contact</a></li>
+                                        <!-- <li><a href="contact.php">contact</a></li> -->
                                     </ul>
                                 </nav>
 
@@ -72,7 +72,7 @@ $totalProduct=$obj->totalProduct();
 												<?php
 											}
 											?>
-                                            <li><a href="contact.php">contact</a></li>
+                                            <!-- <li><a href="contact.php">contact</a></li> -->
                                         </ul>
                                     </nav>
                                 </div>  
