@@ -27,9 +27,9 @@ $res = mysqli_query($con, $sql);
 								</thead>
 								<tbody>
 									<?php
-                                $res = mysqli_query($con, "select `order`.*,order_status.name as order_status_str from `order`,order_status where order_status.id=`order`.order_status");
-                                while ($row = mysqli_fetch_assoc($res)) {
-                                ?>
+                                    $res = mysqli_query($con, "select `order`.*,order_status.name as order_status_str from `order`,order_status where order_status.id=`order`.order_status");
+                                    while ($row = mysqli_fetch_assoc($res)) {
+                                    ?>
 									<tr>
 										<td class="product-add-to-cart"><a
 												href="order_master_detail.php?id=<?php echo $row['id'] ?>">

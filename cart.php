@@ -40,15 +40,15 @@ require('top.php');
                             </thead>
                             <tbody>
                                 <?php
-                                        if (isset($_SESSION['cart'])) {
-                                            foreach ($_SESSION['cart'] as $key => $val) {
-                                                $productArr = get_product($con, '', '', $key);
-                                                $pname = $productArr[0]['name'];
-                                                $mrp = $productArr[0]['mrp'];
-                                                $price = $productArr[0]['price'];
-                                                $image = $productArr[0]['image'];
-                                                $qty = $val['qty'];
-                                        ?>
+                                if (isset($_SESSION['cart'])) {
+                                    foreach ($_SESSION['cart'] as $key => $val) {
+                                        $productArr = get_product($con, '', '', $key);
+                                        $pname = $productArr[0]['name'];
+                                        $mrp = $productArr[0]['mrp'];
+                                        $price = $productArr[0]['price'];
+                                        $image = $productArr[0]['image'];
+                                        $qty = $val['qty'];
+                                ?>
                                 <tr>
                                     <td class="product-thumbnail"><a href="#"><img
                                                 src="<?php echo PRODUCT_IMAGE_SITE_PATH . $image ?>" /></a></td>
@@ -80,7 +80,7 @@ require('top.php');
                                                 class="icon-trash icons"></i></a></td>
                                 </tr>
                                 <?php }
-                                        } ?>
+                                } ?>
                             </tbody>
                         </table>
                     </div>

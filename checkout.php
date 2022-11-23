@@ -106,7 +106,7 @@ if (isset($_POST['submit'])) {
 		echo '<script>document.getElementById("payuForm").submit();</script>';
 	} else {
 
-    ?>
+?>
 <script>
 	window.location.href = 'thank_you.php';
 </script>
@@ -114,7 +114,7 @@ if (isset($_POST['submit'])) {
 	}
 
 }
-        ?>
+?>
 
 <div class="ht__bradcaump__area"
 	style="background: rgba(0, 0, 0, 0) url(images/bg/4.jpg) no-repeat scroll center center / cover ;">
@@ -143,10 +143,10 @@ if (isset($_POST['submit'])) {
 						<div class="accordion">
 
 							<?php
-                                    $accordion_class = 'accordion__title';
-                                    if (!isset($_SESSION['USER_LOGIN'])) {
-	                                    $accordion_class = 'accordion__hide';
-                                    ?>
+                            $accordion_class = 'accordion__title';
+                            if (!isset($_SESSION['USER_LOGIN'])) {
+	                            $accordion_class = 'accordion__hide';
+                            ?>
 							<div class="accordion__title">
 								Checkout Method
 							</div>
@@ -272,16 +272,16 @@ if (isset($_POST['submit'])) {
 					<h5 class="order-details__title">Your Order</h5>
 					<div class="order-details__item">
 						<?php
-                                $cart_total = 0;
-                                foreach ($_SESSION['cart'] as $key => $val) {
-	                                $productArr = get_product($con, '', '', $key);
-	                                $pname = $productArr[0]['name'];
-	                                $mrp = $productArr[0]['mrp'];
-	                                $price = $productArr[0]['price'];
-	                                $image = $productArr[0]['image'];
-	                                $qty = $val['qty'];
-	                                $cart_total = $cart_total + ($price * $qty);
-                                ?>
+                        $cart_total = 0;
+                        foreach ($_SESSION['cart'] as $key => $val) {
+	                        $productArr = get_product($con, '', '', $key);
+	                        $pname = $productArr[0]['name'];
+	                        $mrp = $productArr[0]['mrp'];
+	                        $price = $productArr[0]['price'];
+	                        $image = $productArr[0]['image'];
+	                        $qty = $val['qty'];
+	                        $cart_total = $cart_total + ($price * $qty);
+                        ?>
 						<div class="single-item">
 							<div class="single-item__thumb">
 								<img src="<?php echo PRODUCT_IMAGE_SITE_PATH . $image ?>" />

@@ -64,15 +64,16 @@
             <div class="row">
                 <div class="product__list clearfix mt--30">
                     <?php
-                            $get_product = get_product($con, 4);
-                            foreach ($get_product as $list) {
-                            ?>
+                    $get_product = get_product($con, 4);
+                    foreach ($get_product as $list) {
+                    ?>
 
                     <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
                         <div class="category">
                             <div class="ht__cat__thumb">
                                 <a href="product.php?id=<?php echo $list['id'] ?>">
-                                    <img src="<?php echo PRODUCT_IMAGE_SITE_PATH . $list['image'] ?>" alt="product images">
+                                    <img src="<?php echo PRODUCT_IMAGE_SITE_PATH . $list['image'] ?>"
+                                        alt="product images">
                                 </a>
                             </div>
 

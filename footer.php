@@ -80,7 +80,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="copyright__inner">
-                        <p>Copyright© Electronify Pvt. Ltd.</a> All right reserved.</p>
+                        <p>Copyright© Electronifi Pvt. Ltd.</a> All right reserved.</p>
                         <a><img src="images/others/shape/paypol.png" alt="payment images"></a>
                     </div>
                 </div>

@@ -40,13 +40,13 @@ if (isset($_GET['sort'])) {
 if ($cat_id > 0) {
 	$get_product = get_product($con, '', $cat_id, '', '', $sort_order);
 } else {
-    ?>
+?>
 <script>
 	window.location.href = 'index.php';
 </script>
 <?php
 }
-    ?>
+?>
 <div class="body__overlay"></div>
 
 <div class="ht__bradcaump__area"
@@ -91,8 +91,8 @@ if ($cat_id > 0) {
 							<div role="tabpanel" id="grid-view"
 								class="single-grid-view tab-pane fade in active clearfix">
 								<?php
-	                    foreach ($get_product as $list) {
-                                        ?>
+	            foreach ($get_product as $list) {
+                                ?>
 								<div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
 									<div class="category">
 										<div class="ht__cat__thumb">
@@ -103,7 +103,7 @@ if ($cat_id > 0) {
 										</div>
 
 										<div class="fr__product__inner">
-											<h4><a href="product-details.html">
+											<h4><a href="product.php?id=<?php echo $list['id'] ?>">
 													<?php echo $list['name'] ?>
 												</a></h4>
 											<ul class="fr__pro__prize">
@@ -124,8 +124,8 @@ if ($cat_id > 0) {
 				</div>
 			</div>
 			<?php } else {
-	                    echo "Data not found";
-                    } ?>
+	            echo "Data not found";
+            } ?>
 
 		</div>
 	</div>

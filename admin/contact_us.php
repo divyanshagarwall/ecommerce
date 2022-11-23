@@ -38,8 +38,8 @@ $res = mysqli_query($con, $sql);
 								</thead>
 								<tbody>
 									<?php
-                            $i = 1;
-                            while ($row = mysqli_fetch_assoc($res)) { ?>
+                                    $i = 1;
+                                    while ($row = mysqli_fetch_assoc($res)) { ?>
 									<tr>
 										<td class="serial">
 											<?php echo $i ?>
@@ -64,8 +64,8 @@ $res = mysqli_query($con, $sql);
 										</td>
 										<td>
 											<?php
-	                            echo "<span class='badge badge-delete'><a href='?type=delete&id=" . $row['id'] . "'>Delete</a></span>";
-                                ?>
+	                                    echo "<span class='badge badge-delete'><a href='?type=delete&id=" . $row['id'] . "'>Delete</a></span>";
+                                            ?>
 										</td>
 									</tr>
 									<?php } ?>
