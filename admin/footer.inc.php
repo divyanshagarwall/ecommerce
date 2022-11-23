@@ -4,7 +4,7 @@
       <div class="row">
          <div class="col-sm-6">
             Copyright &copy;
-            <?php echo date('Y') ?> Electronify Pvt. Ltd.
+            <?php echo date('Y') ?> Electronify Pvt. Ltd.(Managed by GLA University Students)
          </div>
 
       </div>

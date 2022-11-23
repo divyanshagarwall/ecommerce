@@ -29,7 +29,6 @@
                         <h2 class="title__line--2">information</h2>
                         <div class="ft__inner">
                             <ul class="ft__list">
-                                <li><a href="./contact.php">About us</a></li>
                                 <li><a href="./privacy.html">Privacy & Policy</a></li>
                                 <li><a href="./term.html">Terms & Condition</a></li>
                             </ul>
@@ -48,7 +47,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-6 col-xs-12 xmt-40 smt-40">
+                <!-- <div class="col-md-2 col-sm-6 col-xs-12 xmt-40 smt-40">
                     <div class="footer">
                         <h2 class="title__line--2">Our service</h2>
                         <div class="ft__inner">
@@ -57,7 +56,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-3 col-sm-6 col-xs-12 xmt-40 smt-40">
                     <div class="footer">
                         <h2 class="title__line--2">NEWSLETTER </h2>

@@ -98,7 +98,7 @@
         </div>
     </div>
 </section>
-<section class="ftr__product__area ptb--100">
+<!-- <section class="ftr__product__area ptb--100">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
@@ -109,5 +109,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <?php require('footer.php') ?>

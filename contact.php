@@ -45,8 +45,7 @@ require('top.php');
                     <div class="address__details">
                         <h2 class="ct__title">openning hour</h2>
                         <p>Mon-Fri:10AM to 4PM</p>
-                        <p>Saturday ko bhi mil lenge esi koi burai nhi h:-)</p>
-                        <p>lekin sunday ko glti se bhi mtt aa jana neend khraab krne!!!!</p>
+                        <p>Saturday and Sunday Closed</p>
                     </div>
                 </div>
 
@@ -56,7 +55,7 @@ require('top.php');
                     </div>
                     <div class="address__details">
                         <h2 class="ct__title">Phone Number</h2>
-                        <p>9559961616</p>
+                        <p>9999999999</p>
                     </div>
                 </div>
             </div>
@@ -283,7 +282,7 @@ require('top.php');
         var map = new google.maps.Map(mapElement, mapOptions);
 
         var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(23.7286, 90.3854),
+            position: new google.maps.LatLng(27.6057, 77.5933),
             map: map,
             title: 'Ramble!',
             icon: 'images/icons/map-2.png',
